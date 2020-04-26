@@ -62,4 +62,11 @@ the SECRET_KEY
 8. Run run.py with this command:
 python3 run.py
 
+9. Last but not the least. Add that run.py file in your crontab. Lets say you
+want to send message at 10 o'clock morning everyday
+
+* 10 * * * /home/my/virtual/bin/python /home/my/project/run.py
+
+This will be the format
+
 Enjoy your automated life now!!!
